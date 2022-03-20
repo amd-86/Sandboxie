@@ -4,25 +4,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
-## [1.0.14 / 5.55.14] - 2022-03-xx
-
-
-### Added
-- added main browsers to BlockSoftwareUpdaters template (by Dyras) [#1630](https://github.com/sandboxie-plus/Sandboxie/pull/1630)
-
-### Changed
-- disabled SBIE2193 notification (by isaak654) [#1690](https://github.com/sandboxie-plus/Sandboxie/pull/1690)
-
-
-
-
 ## [1.0.14 / 5.55.14] - 2022-03-
 
 ### Added
-- added notification window to when updates are checked for notifying that the default update checker is often behing whats newest on github, to ensure only bug free builds are offered as updates.
+- added notification window to when updates are checked for notifying that the default update checker is often behind what is newest on GitHub, to ensure only bug-free builds are offered as updates. [#1682](https://github.com/sandboxie-plus/Sandboxie/issues/1682)
+- added main browsers to BlockSoftwareUpdaters template (by Dyras) [#1630](https://github.com/sandboxie-plus/Sandboxie/pull/1630)
+- added cleanup for critical sections (by chunyou128) [#1686](https://github.com/sandboxie-plus/Sandboxie/pull/1686)
 
 ### Changed
 - improved command line handling for breakout processes [#1655](https://github.com/sandboxie-plus/Sandboxie/issues/1655)
+- disabled SBIE2193 notification (by isaak654) [#1690](https://github.com/sandboxie-plus/Sandboxie/pull/1690)
 
 ### Fixed
 - fixed dark mode issue with the new tray list
